@@ -8,7 +8,7 @@ document.addEventListener('DOMContentLoaded', async () => {
     uploadSignatureTimestamp: data.timestamp,
     uploadSignature: data.signature,
     cropping: false,
-    folder: 'signed_upload_demo_uw'
+    upload_preset: 'products_test'
   }
 
   const processResults = (error, result) => {
